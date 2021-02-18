@@ -631,3 +631,9 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 if (file_exists('/var/www/site-php')) {
   require '/var/www/site-php/genasabin.info/gsabin-settings.inc';
 }
+
+// Automatically generated include for settings managed by ddev.
+$ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
+if (is_readable($ddev_settings) && getenv('IS_DDEV_PROJECT') == 'true') {
+  require $ddev_settings;
+}
