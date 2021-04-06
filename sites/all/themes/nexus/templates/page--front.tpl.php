@@ -79,7 +79,7 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
       </div>
-      <div class="col-sm-6 mainmenu">
+      <div class="mainmenu">
         <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">

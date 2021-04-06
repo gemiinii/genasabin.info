@@ -1172,7 +1172,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 .view-listing-by-category .views-field-field-body { float: left; }
 
 #logo { width: 230px; }
-.mainmenu { width: 620px; float: right; }
+.mainmenu { float: right; }
 
 #social-media { padding-top: 30px; }
 #social-media .fa { padding-right: 10px; }
