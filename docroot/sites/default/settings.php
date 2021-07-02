@@ -302,3 +302,7 @@ $ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
 if (is_readable($ddev_settings) && getenv('IS_DDEV_PROJECT') == 'true') {
   require $ddev_settings;
 }
+
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  require_once __DIR__ . '/settings.local.php';
+}

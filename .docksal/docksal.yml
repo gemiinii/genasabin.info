@@ -1,0 +1,7 @@
+version: "2.1"
+
+services:
+  cli:
+    volumes:
+    # Shares ssh-agent socket
+    - docksal_ssh_agent:/.ssh-agent:ro
